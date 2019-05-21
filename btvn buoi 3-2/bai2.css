@@ -1,0 +1,30 @@
+.o1{
+	float: left;
+	
+
+	margin-left: 50px;
+	
+
+	
+
+}
+.o3{
+	float: left;
+	margin-left: 50px;
+	
+}
+.kichco{
+	display:block;
+}
+.tung{
+	background-color: whitesmoke;
+	border: 1px solid ;
+	height:125px;
+	width: 880px;
+
+}
+
+
+.yeu:hover{
+	color: red;
+}
