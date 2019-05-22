@@ -1,0 +1,116 @@
+#background {
+			width: 1000px;
+			height: 1500px;
+			background-image: url(../img03+04/tuyet.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+}
+#headler {
+			width: 80%;
+			height: 400px;
+			background-image: url(../img03+04/123.jpg);
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			
+}
+#menu {
+	width: 790px;
+	height: 40px;
+	background-color: gray;
+	color: orange;
+}
+#blank {
+	width: 100px;
+	height: 4000px;
+	background-color: none;
+	float: left;
+}
+.sidebar {
+	width: 150px;
+	height: 985px;
+	background-color: white;
+	float: left;
+}
+#mainbar {
+	width: 495px;
+	height: 985px;
+	background-color: white;
+	float: left;
+}
+.menusidebar1 {
+	border: 1px solid black;
+	width: 150px;
+	height: 280px;
+}
+#menusidebar2a {
+	border: 1px solid black;
+	width: 150px;
+	height: 120px;
+}
+#menusidebar2b {
+	border: 1px solid black;
+	width: 150px;
+	height: 450px;
+}
+.topmenusidebar {
+	width: 150px;
+	height: 50px;
+	background-image: url(../img03+04/menu_bar.gif);
+}
+.botsidebar {
+	width: 150px;
+	height: 400px;
+	border: 1px solid black;
+}
+#mainbar1 {
+	width: 495px;
+	height: 120px;
+	background-color: pink;
+	border: 5px solid pink;
+	border-radius:50px
+}
+.topmainbarA {
+	width: 495px;
+	height: 25px;
+	color: white;
+	background-image: url(../img03+04/main_bar_left.gif);
+}
+.midmainbarA {
+	width: 160px;
+	height: 100px;
+	float: left;
+	color: orange;
+}
+.botmainbarA {
+	width: 395px;
+	height: 100px
+}
+.topmainbarB {
+	color: white;
+	width: 495px;
+	height: 25px;
+	background-image: url(../img03+04/main_bar_right.gif);
+	text-align: right;
+}
+.midmainbarB {
+	width: 160px;
+	height: 100px;
+	float: right;
+	text-align: right;
+	color: orange;
+}
+.botmainbarB {
+	width: 395px;
+	height: 100px
+}
+#footer {
+	width: 495px;
+	height: 50px;
+	background-color: gray;
+	text-align: center;
+	color: white;
+	border: 1px solid black;
+}
+.link:hover {
+	color: red;
+}
