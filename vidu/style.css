@@ -1,0 +1,17 @@
+.menu li{
+	list-style: none;
+	float: left;
+	padding: 5px 27px;
+	background-color: red;
+	position: relative;
+	display: inline-block;
+
+}
+.submenu{
+	display: none;
+	position: absolute;
+}
+.menu li: hover .submenu li{
+	display: block;
+
+}
