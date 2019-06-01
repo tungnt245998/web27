@@ -1,0 +1,12 @@
+/*.menu{
+	width: 800px;
+	height: 800px;
+	background: linear-gradient( yellow,red ,blue, green,pink,orange,black,white);
+}*/
+@font-face{
+	font-family: test;
+	src: url(../imgae/Font-Thu-Phap/Font-Thu-Phap/Vndiudag.ttf);
+}
+.menu>p{
+	font-family: test
+}
