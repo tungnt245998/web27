@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bt8_4</title>
+	<script type="text/javascript">
+		var m = prompt('Nhap M');
+		var n = prompt('Nhap N <= M');
+		var k = prompt('Nhap K');
+		var sum2 = 0;
+		var sum3 = 0;
+		for (i = 1; i<=m; i++) {
+			if (i % k == 0) {
+				sum3 += i;
+			}
+		}
+		for (j = 1; j<=n; j++) {
+			if (j % k == 0) {
+				sum2 += j;
+			}
+		}
+		var sum = sum3 - sum2;
+		document.write('Tong la ' +sum);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
