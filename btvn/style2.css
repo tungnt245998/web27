@@ -1,0 +1,56 @@
+* {
+  box-sizing:border-box
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+} 
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+  background-color: red;
+}
+ 
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+ 
+/*@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}*/
+ 
+@keyframes imgheader {
+  0% {
+    background-image: url(../img01/Samsung1.jpg); 
+  }
+  33% {
+    background-image: url(../img01/Samsung2.jpg)
+  }
+  66% {
+    background-image: url(../img01/Samsung3.jpg);
+  }
+  100% {
+    background-image: url(../img01/Samsung1.jpg);
+  }
+}

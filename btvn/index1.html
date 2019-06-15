@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bt10</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td >Ho va ten</td>
+			<td><input type="textbox" name="" class="ten" placeholder="Nhap ho ten"></td>
+			<td class="errorten"></td>
+		</tr>
+		<tr>
+			<td>Gioi tinh</td>
+			<td><input type="radio" name="gioitinh" class="gioitinh"> Nam
+				<input type="radio" name="gioitinh" class="gioitinh"> Nu</td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="textbox" name="" class="email" placeholder="Nhap email"></td>
+		</tr>
+		<tr>
+			<td>So dien thoai</td>
+			<td><input type="textbox" name="" class="sodienthoai" placeholder="Nhap so dien thoai"></td>
+		</tr>
+		<tr>
+			<td>Mat khau</td>
+			<td><input type="textbox" name="" class="matkhau"></td>
+		</tr>
+		<tr>
+			<td>Xac nhan mat khau</td>
+			<td><input type="textbox" name="" class="xacnhanmatkhau"></td>
+		</tr>
+	</table>
+	<input type="button" name="" value="Dang ky" onclick="clickme()">  <input type="button" name="" value="Xoa trang">
+	<script type="text/javascript">
+		function clickme() {
+			var hoten = document.getElementsByClassName('ten')[0].value;
+			if (hoten == '') {
+				alert('Nhap ho ten');
+			}
+			var email=document.getElementsByClassName('email')[0].value;
+			var aCong=email.indexOf('@');
+			var dauCham = email.lastIndexOf('.');
+			if (email == '') {
+			alert('Nhap email');
+			}
+			var sodienthoai = document.getElementsByClassName('sodienthoai')[0].value;
+			if (sodienthoai	== '') {
+				alert('Nhap so dien thoai');
+			}
+			
+			var matkhau = document.getElementsByClassName('matkhau')[0].value;
+			if (matkhau == '') {
+				alert('Nhap mat khau');
+			}
+			var xacnhanmatkhau = document.getElementsByClassName('xacnhanmatkhau')[0].value;
+			if (xacnhanmatkhau == '') {
+				alert('Nhap xac nhan mat khau');
+			}
+		}
+	</script>
+</body>
+</html>
